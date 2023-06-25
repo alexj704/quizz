@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>
+        <span>Quizz</span>
+        Culture générale. ☑️
+      </h1>
+
+      <form class="form-container">
+        <div class="question-container">
+          <div>
+            <h3>Qui est sacré empereur de France le 2 décembre 1804 ?</h3>
+            <div>
+              <input type="radio" name="q1" id="Clovis" value="a" checked />
+              <label for="Clovis">Clovis</label>
+            </div>
+            <div>
+              <input type="radio" name="q1" id="Lincoln" value="b" />
+              <label for="Lincoln">Abraham Lincoln</label>
+            </div>
+            <div>
+              <input type="radio" name="q1" id="Bonaparte" value="c" />
+              <label for="Bonaparte">Napoléon Bonaparte</label>
+            </div>
+          </div>
+        </div>
+        <div class="question-container">
+          <div>
+            <h3>
+              Quand la déclaration d'indépendance des Etats-Unis a-t-elle été
+              votée ?
+            </h3>
+            <div>
+              <input type="radio" name="q2" id="date1" value="a" checked />
+              <label for="date1">Le 4 juillet 1776</label>
+            </div>
+            <div>
+              <input type="radio" name="q2" id="date2" value="b" />
+              <label for="date2">Le 18 avril 1856</label>
+            </div>
+            <div>
+              <input type="radio" name="q2" id="date3 " value="c" />
+              <label for="date3">Le 30 juin 1925</label>
+            </div>
+          </div>
+        </div>
+        <div class="question-container">
+          <div>
+            <h3>Quand a eu lieu la chute de l'empire romain d'Occident ?</h3>
+            <div>
+              <input type="radio" name="q3" id="date4" value="a" checked />
+              <label for="date4">En 15 ap. J.-C.</label>
+            </div>
+            <div>
+              <input type="radio" name="q3" id="date5" value="b" />
+              <label for="date5">En 476 ap. J.-C.</label>
+            </div>
+            <div>
+              <input type="radio" name="q3" id="date6" value="c" />
+              <label for="date6">En -740 av. J.-C.</label>
+            </div>
+          </div>
+        </div>
+        <div class="question-container">
+          <div>
+            <h3>Quelle est la capitale de la Slovénie ?</h3>
+            <div>
+              <input type="radio" name="q4" id="Ljubljana" value="a" checked />
+              <label for="Ljubljana">Ljubljana</label>
+            </div>
+            <div>
+              <input type="radio" name="q4" id="Belgrade" value="b" />
+              <label for="Belgrade">Belgrade</label>
+            </div>
+            <div>
+              <input type="radio" name="q4" id="Bratislava" value="c" />
+              <label for="Bratislava">Bratislava</label>
+            </div>
+          </div>
+        </div>
+        <div class="question-container">
+          <div>
+            <h3>Combien d'habitants compte l'Irlande en 2020 ?</h3>
+            <div>
+              <input type="radio" name="q5" id="m1" value="a" checked />
+              <label for="m1">1,365 Million</label>
+            </div>
+            <div>
+              <input type="radio" name="q5" id="m2" value="b" />
+              <label for="m2">21 Millions</label>
+            </div>
+            <div>
+              <input type="radio" name="q5" id="m3" value="c" />
+              <label for="m3">4,9 Millions</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Valider</button>
+      </form>
+      <div class="result-container">
+        <h2 class="result">
+          Cliquez sur <span>valider</span> pour voir les <span>résultats</span>
+        </h2>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
